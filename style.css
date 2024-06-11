@@ -1,0 +1,35 @@
+{
+  font-family: 'Times New Roman', Arial, serif;
+  line-height: 1.6;
+  font-size: 13px; 
+}
+
+.isHidden {
+  display: none;
+}
+
+.solution {
+  color: black;
+  background-color: #fefcf2;
+  border-radius: 5px;
+  border: 10px;
+  margin: 20px 0;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#login {
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+  width: 25%;
+  margin: auto;
+}
+
+#courseIDDiv {
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+  width: 25%;
+  margin: auto;
+}
