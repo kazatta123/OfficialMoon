@@ -17,7 +17,7 @@ loginForm.addEventListener("submit", function (e) {
   e.preventDefault();
   const username = document.getElementById("username").value;
   const password = document.getElementById("password").value;
-  fetch("https://identity.moon.vn/api/user/login", {
+  fetch("https://s.moon.vn/api/user/login", {
     method: "POST",
     body: JSON.stringify({
       username: username,
